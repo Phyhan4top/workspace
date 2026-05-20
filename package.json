@@ -6,7 +6,7 @@
   "homepage": "https://phyhan4top.github.io/workspace",
   "scripts": {
     "dev": "vite",
-    "build": " vite build",
+    "build": "vite build",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist"
   },
@@ -16,6 +16,7 @@
     "vite": "^8.0.12"
   },
   "dependencies": {
+    "@vitejs/plugin-react": "^6.0.2",
     "react": "^19.2.6",
     "react-dom": "^19.2.6"
   }
